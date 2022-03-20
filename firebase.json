@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/githubaction-firebasehosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
